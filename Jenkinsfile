@@ -7,7 +7,7 @@ pipeline
             {
                 steps('Initiate')
                 {
-                    echo "Testing..."
+                     echo "Testing..."
                 }
             }
             stage
