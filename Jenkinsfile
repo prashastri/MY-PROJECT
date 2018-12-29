@@ -3,21 +3,21 @@ pipeline
     agent any
     stages
     {
-            stage
+        stage
             {
                 steps('Initiate')
                 {
                      echo "Testing..."
                 }
             }
-            stage
+        stage
             {
                 steps('Build')
                 {
                     echo "Build..."
                 }
             }
-            stage
+        stage
             {
                 steps('Deploy')
                 {
